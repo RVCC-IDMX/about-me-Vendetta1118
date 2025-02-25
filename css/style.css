@@ -1,3 +1,37 @@
 body {
-    background-color: rgba(0, 255, 21, 0.984);
+    font-family:"Markazi Text";
+    font-size: x-large;
+    background-color: #408048;
+    color: #00ff22;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-family:Newsreader;
+    font-size: 25pt;
+}
+
+header {
+    text-align: center;
+}
+
+#hero {
+    background-color: #185e21;
+    padding: 2px;
+    color: #00ff22;
+    text-align: center;
+}
+
+#hero img {
+    width: 425px;
+}
+
+
+#bio {
+    text-align: center;
+}
+
+footer {
+    background-color: #185e21;
+    ;
+    padding: 2px;
+}
+
