@@ -47,3 +47,11 @@ footer {
     border: 5px inset #c84064;
 }
 
+#gallery img {
+    max-width: 100%;
+}
+
+#gallery figure {
+text-align: center;
+}
+
