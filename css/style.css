@@ -33,6 +33,14 @@ header {
     }
 }
 
+#hobbies ul li {
+color: #00ff22;
+}
+
+#hobbies ul li:nth-child(2n-1){
+    color: #AA3957;
+}
+
 footer {
     background-color: #1d7228;
     padding: 2px;
