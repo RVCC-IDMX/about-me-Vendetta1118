@@ -1,8 +1,8 @@
 body {
     font-family:"Markazi Text";
     font-size: x-large;
-    background-color: #408048;
-    color: #00ff22;
+    background-color: #269f36;
+    color: #AA3957;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family:Newsreader;
@@ -14,10 +14,11 @@ header {
 }
 
 #hero {
-    background-color: #185e21;
+    background-color: #1b7026;
     padding: 2px;
     color: #00ff22;
     text-align: center;
+    border: 10px inset #AA3957
 }
 
 #hero img {
@@ -27,11 +28,14 @@ header {
 
 #bio {
     text-align: center;
+    p {
+        color: #00ff22;
+    }
 }
 
 footer {
-    background-color: #185e21;
-    ;
+    background-color: #1d7228;
     padding: 2px;
+    border: 5px inset #c84064;
 }
 
