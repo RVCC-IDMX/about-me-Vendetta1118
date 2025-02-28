@@ -55,3 +55,7 @@ footer {
 text-align: center;
 }
 
+article {
+   text-decoration: blue underline; 
+}
+
