@@ -33,6 +33,17 @@ header {
     }
 }
 
+#hobbies{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#hobbies h2 {
+margin: 5ex;
+}
+
 #hobbies ul li {
 color: #00ff22;
 }
@@ -58,4 +69,21 @@ text-align: center;
 article {
    text-decoration: blue underline; 
 }
+
+@media screen and (max-width: 60em) {
+
+figure{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+figcaption{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 2em;
+}
+
+
+}
+
 
