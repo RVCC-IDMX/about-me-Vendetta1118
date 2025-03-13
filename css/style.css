@@ -66,42 +66,59 @@ footer {
 text-align: center;
 }
 
+#gallery figcaption {
+font-size: 40px;
+
+}
+
 article {
    text-decoration: blue underline; 
 }
 
+
+/* Dropcaps */
 article p::first-letter {
-color: blue;
-background-color: red;
+color: #AA3957;
+background-color: rgb(26, 201, 10);
 float: left;
-border: 5px double black;
+border: 5px inset black;
 border-radius: 10px;
 padding:.2ex;
-font-size: 500%;
+font-size: 200%;
 margin-right:.5ex;
 text-shadow: 1px 1px yellow;
 clear: flex;
 }
 
 article p {
-    max-width: 100%
+    max-width: 100%;
 }
 
 
-@media screen and (max-width: 60em) {
+/* tablet size */
+@media screen and (max-width: 1024px) {
 
-figure{
+figure {
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
-figcaption{
+figcaption {
 display: flex;
 justify-content: center;
 align-items: center;
 font-size: 2em;
 }
 
+#lit div {
+     max-width: 100%;
+    columns: 20rem;
+}
+
+#hero img {
+    width: 300px;
+}
 
 }
+
 
 
