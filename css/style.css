@@ -95,8 +95,52 @@ clear: flex;
     text-align: center;
 }
 
+#contact {
+    padding: 1rem;
+    max-width: 75rem;
+    margin: 2rem auto;
+}
+
+fieldset {
+border: 5px solid #AA3957 ;
+margin-top: 2em;
+margin-bottom: 2em;
+border-radius: 2rem;
+
+}
+
+legend {
+    background-color: #AA3957;
+    color: #00ff22;
+    padding: .5em;
+}
+
 #formElements {
     display: grid;
+    row-gap: .5em;
+}
+
+#name, #email, #phone, #contact textarea, #contact select, #contact button {
+padding:.5em;
+font-size:1rem;
+box-shadow: 10px 10px 10px black;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0px;
+}
+
+#contact li {
+    margin: 1rem;
+}
+
+#contact button {
+background-color: #AA3957;
+color: #00ff22;
+max-width: 400px;
+width: 100%;
+justify-self: center;
 }
 
 article p {
@@ -127,6 +171,9 @@ font-size: 2em;
     width: 300px;
 }
 
+fieldset{
+width: 25rem
+}
 
 }
 
