@@ -11,7 +11,7 @@ Using this website I can demonstrate the many skills that I have learned through
 ## Color Scheme 
 Many of the colors that I have used I feel, make the page pop out more to the naked eye. Using boring and washed out colors can get people to click away so I really wanted to make it unique and special which is why I used many colors that pop off the page. I used a few Hex codes throughout my page like #AA3957 #269f36 #1b7026 and #00ff22 to really make my website standout from others. 
 
-## Sources Used in Website
+## Sources Used in Website for Blog
 
 [www.lenovo.com/gb/en/glossary/sprite/#:~:text=is%20a%20sprite%3F-,What%20is%20a%20sprite%3F,special%20effects%20within%20a%20game.]
 
