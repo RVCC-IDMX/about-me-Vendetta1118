@@ -1,7 +1,7 @@
 body {
     font-family:"Markazi Text";
     font-size: x-large;
-    background-color: #269f36;
+    background-color: #01FAA0;
     color: #AA3957;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -14,9 +14,9 @@ header {
 }
 
 #hero {
-    background-color: #1b7026;
+    background-color: #3A4D46;
     padding: 2px;
-    color: #00ff22;
+    color: #01FAA0;
     text-align: center;
     border: 10px inset #AA3957
 }
@@ -29,7 +29,7 @@ header {
 #bio {
     text-align: center;
     p {
-        color: #00ff22;
+        color: #000;
     }
 }
 
@@ -45,12 +45,9 @@ margin: 5ex;
 }
 
 #hobbies ul li {
-color: #00ff22;
+color: #000;
 }
 
-#hobbies ul li:nth-child(2n-1){
-    color: #AA3957;
-}
 
 footer {
     background-color: #1d7228;
@@ -68,11 +65,12 @@ text-align: center;
 
 #gallery figcaption {
 font-size: 40px;
-
+color: #000;
 }
 
 article {
    text-decoration: blue underline; 
+   color: #000;
 }
 
 
