@@ -13,6 +13,7 @@ header {
     text-align: center;
 }
 
+
 #hero {
     background-color: #3A4D46;
     padding: 2px;
@@ -55,6 +56,11 @@ footer {
     border: 5px inset #c84064;
 }
 
+#gallery h2 {
+    display: flex;
+    justify-content: center;
+    }
+
 #gallery img {
     max-width: 100%;
 }
@@ -71,6 +77,12 @@ color: #000;
 article {
    text-decoration: blue underline; 
    color: #000;
+}
+
+#lit h2 {
+
+    color: #AA3957;
+margin-top: 100px;
 }
 
 
@@ -160,6 +172,11 @@ align-items: center;
 font-size: 2em;
 }
 
+#gallery h2 {
+    display: flex;
+    justify-content: center;
+    }
+
 #lit div {
      max-width: 100%;
     columns: 20rem;
@@ -176,5 +193,31 @@ width: 25rem
 }
 
 
+@media (max-width: 768px) {
 
+.hamburger {
+    width:50px;
+    height: 6px;
+    background-color: whitesmoke;
+    position:relative ;
+    align-self: center;
+}
 
+.hamburger::before,
+.hamburger::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 6px;
+    background-color: whitesmoke;
+}
+
+.hamburger::before{
+    top: -16px;
+}
+
+.hamburger::after{
+    top: 16px;
+}
+
+}
