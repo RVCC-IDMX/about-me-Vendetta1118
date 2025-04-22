@@ -51,7 +51,8 @@ color: #000;
 
 
 footer {
-    background-color: #1d7228;
+    color: #01FAA0;
+    background-color: #3A4D46;
     padding: 2px;
     border: 5px inset #c84064;
 }
@@ -196,10 +197,11 @@ width: 25rem
 @media (max-width: 768px) {
 
 .hamburger {
+    display: flex;
     width:50px;
     height: 6px;
     background-color: whitesmoke;
-    position:relative ;
+    position:relative;
     align-self: center;
 }
 
@@ -210,6 +212,7 @@ width: 25rem
     width: 50px;
     height: 6px;
     background-color: whitesmoke;
+    
 }
 
 .hamburger::before{
