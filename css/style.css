@@ -230,8 +230,17 @@ width: 25rem;
 @media (max-width: 768px) {
 
 *{
-box-sizing: border-box;
+    box-sizing: border-box;
 }
+
+ .navbar-location {
+    padding-bottom: 0;
+ }
+
+ .push-down.navbar-location {
+padding-bottom: 28rem;
+
+ }
 
 .navbar {
     min-height: 70px;
@@ -250,7 +259,6 @@ box-sizing: border-box;
     background-color: #333;
     width: 100%;
     text-align: center;
-    transition: 0.3s;
 }
 
 .nav-links {
