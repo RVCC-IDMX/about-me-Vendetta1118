@@ -13,6 +13,20 @@ header {
     text-align: center;
 }
 
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: whitesmoke;
+    }
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    }
 
 #hero {
     background-color: #3A4D46;
@@ -179,6 +193,8 @@ fieldset {
 /* tablet size */
 @media screen and (max-width: 769px) {
 
+
+
 figure {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -213,9 +229,54 @@ width: 25rem;
 
 @media (max-width: 768px) {
 
-.navbar {
-    overflow: hidden;
+*{
+box-sizing: border-box;
 }
+
+.navbar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.navbar-links {
+    position: absolute;
+    left: -100%;
+    top: 100px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.nav-links {
+    margin: 30px 0;
+}
+
+.navbar-links.active {
+left: 0;
+}
+
+.hamburger {
+    display: block;
+}
+
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
 
 html,body {
     width: 100;
@@ -225,32 +286,8 @@ html,body {
     overflow-x: hidden;
 }
 
-.hamburger {
-    display: flex;
-    width:50px;
-    height: 6px;
-    background-color: whitesmoke;
-    position:relative;
-    align-self: center;
-}
 
-.hamburger::before,
-.hamburger::after{
-    content: "";
-    position: absolute;
-    width: 50px;
-    height: 6px;
-    background-color: whitesmoke;
-    
-}
 
-.hamburger::before{
-    top: -16px;
-}
-
-.hamburger::after{
-    top: 16px;
-}
 
 .player {
     width: 100%;
