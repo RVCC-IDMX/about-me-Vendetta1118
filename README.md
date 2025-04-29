@@ -11,13 +11,19 @@ Using this website I can demonstrate the many skills that I have learned through
 ## Color Scheme 
 Many of the colors that I have used I feel, make the page pop out more to the naked eye. Using boring and washed out colors can get people to click away so I really wanted to make it unique and special which is why I used many colors that pop off the page. I used a few Hex codes throughout my page like #01FAA0 #43A27F #3A4D46 and #B8533D to really make the website standout from others. 
 
-## Sources Used in Website for Blog
+## Sources and Code References
+
+[https://www.deviantart.com/ashung/art/CSS-Progress-Bar-122803902]
+
+[https://www.youtube.com/watch?v=flItyHiDm7E]
 
 [www.lenovo.com/gb/en/glossary/sprite/#:~:text=is%20a%20sprite%3F-,What%20is%20a%20sprite%3F,special%20effects%20within%20a%20game.]
 
 [https://www.udacity.com/blog/2021/07/an-easy-guide-to-css-sprites.html]
 
 [https://css-tricks.com/css-sprites/]
+
+
 
 ©Joseph Schiavone
 
