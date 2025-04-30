@@ -1,5 +1,7 @@
 # README
-Joseph Schiavone
+Joseph Schiavone 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d995fa61-222a-48eb-9ba9-8f82eb57a829/deploy-status)](https://app.netlify.com/sites/about-me-vendetta1118/deploys)
+
 Welcome! This website will help you get to know me just a little bit better than you may know. Pehaps you don't know me at all. Thats ok! I will be telling you everything you pretty much everything you need to know about me!
 
 ## Why Make It? 
