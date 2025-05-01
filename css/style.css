@@ -1,3 +1,4 @@
+/* Style for full HTML document */
 body {
     font-family:"Markazi Text";
     font-size: x-large;
@@ -12,6 +13,8 @@ h1, h2, h3, h4, h5, h6 {
 header {
     text-align: center;
 }
+
+/* Style for Hamburger Icon*/
 
 .bar {
     display: block;
@@ -28,6 +31,8 @@ header {
     cursor: pointer;
     }
 
+/* Style for my picture and paragraphs*/
+
 #hero {
     background-color: #3A4D46;
     padding: 2px;
@@ -40,6 +45,7 @@ header {
     width: 325px;
 }
 
+/* Style for biography*/
 
 #bio {
     text-align: center;
@@ -48,8 +54,9 @@ header {
     }
 }
 
-#hobbies{
+/* Style for my hobbies*/
 
+#hobbies{
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -63,6 +70,7 @@ margin: 5ex;
 color: #000;
 }
 
+/* Style for footer*/
 
 footer {
     color: #01FAA0;
@@ -70,6 +78,8 @@ footer {
     padding: 2px;
     border: 5px inset #c84064;
 }
+
+/*Style for photo gallery*/
 
 #gallery h2 {
     display: flex;
@@ -89,6 +99,8 @@ font-size: 40px;
 color: #000;
 }
 
+/* Style for blog and figure*/
+
 article {
    color: #000;
 }
@@ -99,10 +111,12 @@ article figure{
     align-items: center;
 }
 
-#lit h2 {
 
+#lit h2 {
+    display: flex;
     color: #AA3957;
-margin-top: 100px;
+    margin-top: 100px;
+    justify-content: center;
 }
 
 
@@ -178,6 +192,8 @@ article p {
     max-width: 100%;
 }
 
+/* Embedded media alignment */
+
 #video {
     text-align: center;
     
@@ -193,6 +209,14 @@ fieldset {
     width: 100%;
     overflow-x: hidden;
     box-sizing: border-box;
+}
+
+a{
+    color: #01FAA0;
+}
+
+a:hover {
+    color: aqua;
 }
 
 /* tablet size */
@@ -231,7 +255,7 @@ width: 25rem;
 
 }
 
-
+/* Iphone size and styling */
 @media (max-width: 768px) {
 
 *{
