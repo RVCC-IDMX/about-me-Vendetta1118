@@ -1,7 +1,8 @@
+/* Style for full HTML document */
 body {
     font-family:"Markazi Text";
     font-size: x-large;
-    background-color: #269f36;
+    background-color: #01FAA0;
     color: #AA3957;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -13,28 +14,49 @@ header {
     text-align: center;
 }
 
+/* Style for Hamburger Icon*/
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: whitesmoke;
+    }
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    }
+
+/* Style for my picture and paragraphs*/
+
 #hero {
-    background-color: #1b7026;
+    background-color: #3A4D46;
     padding: 2px;
-    color: #00ff22;
+    color: #01FAA0;
     text-align: center;
     border: 10px inset #AA3957
 }
 
 #hero img {
-    width: 425px;
+    width: 325px;
 }
 
+/* Style for biography*/
 
 #bio {
     text-align: center;
     p {
-        color: #00ff22;
+        color: #000;
     }
 }
 
-#hobbies{
+/* Style for my hobbies*/
 
+#hobbies{
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -45,18 +67,24 @@ margin: 5ex;
 }
 
 #hobbies ul li {
-color: #00ff22;
+color: #000;
 }
 
-#hobbies ul li:nth-child(2n-1){
-    color: #AA3957;
-}
+/* Style for footer*/
 
 footer {
-    background-color: #1d7228;
+    color: #01FAA0;
+    background-color: #3A4D46;
     padding: 2px;
     border: 5px inset #c84064;
 }
+
+/*Style for photo gallery*/
+
+#gallery h2 {
+    display: flex;
+    justify-content: center;
+    }
 
 #gallery img {
     max-width: 100%;
@@ -68,11 +96,27 @@ text-align: center;
 
 #gallery figcaption {
 font-size: 40px;
-
+color: #000;
 }
 
+/* Style for blog and figure*/
+
 article {
-   text-decoration: blue underline; 
+   color: #000;
+}
+
+article figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#lit h2 {
+    display: flex;
+    color: #AA3957;
+    margin-top: 100px;
+    justify-content: center;
 }
 
 
@@ -106,6 +150,7 @@ border: 5px solid #AA3957 ;
 margin-top: 2em;
 margin-bottom: 2em;
 border-radius: 2rem;
+
 
 }
 
@@ -147,9 +192,37 @@ article p {
     max-width: 100%;
 }
 
+/* Embedded media alignment */
+
+#video {
+    text-align: center;
+    
+    }
+    
+    .player {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+fieldset {
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+a{
+    color: #01FAA0;
+}
+
+a:hover {
+    color: aqua;
+}
 
 /* tablet size */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 769px) {
+
+
 
 figure {
     display: grid;
@@ -162,6 +235,11 @@ align-items: center;
 font-size: 2em;
 }
 
+#gallery h2 {
+    display: flex;
+    justify-content: center;
+    }
+
 #lit div {
      max-width: 100%;
     columns: 20rem;
@@ -172,11 +250,98 @@ font-size: 2em;
 }
 
 fieldset{
-width: 25rem
+width: 25rem;
 }
 
 }
 
+/* Iphone size and styling */
+@media (max-width: 768px) {
+
+*{
+    box-sizing: border-box;
+}
+
+article figure {
+font-size: 10px;
+
+
+}
+
+ .navbar-location {
+    padding-bottom: 0;
+ }
+
+ .push-down.navbar-location {
+padding-bottom: 28rem;
+
+ }
+
+.navbar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.navbar-links {
+    position: absolute;
+    left: -100%;
+    top: 100px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-links {
+    margin: 30px 0;
+}
+
+.navbar-links.active {
+left: 0;
+}
+
+.hamburger {
+    display: block;
+}
+
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+
+html,body {
+    width: 100;
+    height: 100;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 
 
 
+
+.player {
+    width: 100%;
+}
+
+fieldset {
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+
+
+}
